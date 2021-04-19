@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detyra 4</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.0-beta3-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.0-beta3-dist/css/bootstrap.css">
+</head>
+<body>
+    
+    <form class="row g-3 needs-validation" novalidate>
+        <a href="#">Learn more</a>
+        <div class="col-md-6">
+          <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">Name</span>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="Enter Name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">Email</span>
+          <input type="text" class="form-control" id="validationCustom02" placeholder="Enter Email" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">Mobile</span>
+            <input type="number" class="form-control" id="validationCustomUsername" placeholder="Enter Mobile" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">Gender
+          </span>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">- Select Gender -</option>
+            <option>Male</option>
+            <option>Fale</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid gender.
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+         
+          <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">DOB</span>
+          <input type="date" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid date.
+          </div>
+        </div>
+        </div>
+        
+        <div class="col-md-6">
+          <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">City</span>
+          <input type="text" class="form-control" placeholder="Enter City" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+      </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+      </form>
+      <script src="/validitation.js"></script>
+</body>
+</html>
